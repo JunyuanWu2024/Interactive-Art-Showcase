@@ -1,0 +1,144 @@
+/*
+ * Author: Junyuan Wu
+ * Date: 2025-04-26
+ * Description: Login page style code
+ */
+
+ /* Overall container for login page layout */
+.login-desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .login-overlap-wrapper {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .login-overlap {
+    position: relative;
+    height: 100%;
+    background-image: url('./img/home-login-background.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .login-group {
+    position: absolute;
+    top: 100px;
+    left: 1000px;
+    width: 604px;
+    height: 667px;
+  }
+  
+  .login-overlap-group {
+    position: relative;
+    width: 600px;
+    height: 667px;
+    background-color: #ffffff;
+    border-radius: 35px;
+    padding: 40px 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .login-title {
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    margin-top: 100px; 
+    margin-bottom: 30px;
+  }
+  
+  .login-subtitle {
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  
+  .login-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-form-field {
+    margin-bottom: 20px;
+  }
+  
+  .login-input {
+    width: 300px;
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .login-input::placeholder {
+    color: #aaaaaa;
+  }
+  
+  .login-button {
+    width: 300px;
+    padding: 12px;
+    background-color: #74c651;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #63a045;
+  }
+  
+  /* Fixed decorative title on the login page */
+  .login-moss-stones {
+    position: absolute;
+    top: 185px;
+    left: 100px;
+    font-family: 'LexendZetta', sans-serif;
+    font-size: 120px;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0px 4px 4px #c9c7b6;
+    -webkit-text-stroke: 0.1px #000000;
+    cursor: pointer;
+    line-height: normal;
+    text-decoration: none;
+    cursor: default;
+  }
+
+  .login-nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .login-nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .login-nav a:hover {
+    text-decoration: underline;
+  }
+
+  nav {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+  }

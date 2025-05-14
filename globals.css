@@ -1,0 +1,29 @@
+/*
+ * Author: Junyuan Wu
+ * Date: 2025-04-26
+ * Description: Login page global code
+ */
+
+/* Import CSS reset to ensure consistent default styles across browsers */
+ @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+ /* Define and load the LexendZetta font, I use it for my design */
+ @font-face {
+   font-family: 'LexendZetta';
+   src: url('fonts/LexendZetta-Regular.ttf') format('truetype');
+   font-weight: 400;
+   font-style: normal;
+ }
+ 
+ /* Global element settings */
+ * {
+   -webkit-font-smoothing: antialiased;
+   box-sizing: border-box;
+ }
+ 
+ html, body {
+   margin: 0;
+   height: 100%;
+   font-family: 'LexendZetta', sans-serif;
+   overflow: hidden;
+ }
