@@ -1,7 +1,7 @@
 # 🪨 Moss and Stones - Full Stack Web Project 
 
 ## 📌 Project Overview
-This is a full-stack web application developed for COMP4621. It showcases a nature-inspired theme titled **"Moss and Stones"**, combining frontend aesthetics with backend functionality. The site includes user login/registration, responsive design, and multi-page navigation.
+This is a full-stack web application. It showcases a nature-inspired theme titled **"Moss and Stones"**, combining frontend aesthetics with backend functionality. The site includes user login/registration, responsive design, and multi-page navigation.
 
 ## 🔧 Tech Stack
 
